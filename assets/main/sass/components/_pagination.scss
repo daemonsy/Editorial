@@ -16,7 +16,7 @@
 			padding-left: 0;
 			vertical-align: middle;
 
-			> .page {
+			> .page-template {
 				@include vendor('transition', (
 					'background-color #{_duration(transition)} ease-in-out',
 					'color #{_duration(transition)} ease-in-out'
