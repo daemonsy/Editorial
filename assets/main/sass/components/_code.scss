@@ -10,4 +10,14 @@ code:not([class*="language-"]) {
   font-size: 0.9em;
   margin: 0 0.25em;
   padding: 0.25em 0.65em;
+  overflow-x: scroll;
+}
+
+pre {
+  font-family: _font(family-fixed);
+  code {
+    display: block;
+    font-family: _font(family-fixed);
+    overflow-x: scroll;
+  }
 }
