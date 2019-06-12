@@ -10,7 +10,7 @@ into the {body} of the default.hbs template --}}
         <span class="date">{{date format="MMMM D, YYYY"}}</span>
         <h1>{{title}}</h1>
         {{#if custom_excerpt}}
-            <p class="content">{{custom_excerpt}}</p>
+        <p class="content">{{custom_excerpt}}</p>
         {{/if}}
     </header>
 
@@ -51,14 +51,10 @@ into the {body} of the default.hbs template --}}
             </a>
             {{/foreach}}
         </div>
-
     </footer>
 
-    {{!--
-    <section class="post-full-comments">
-        If you want to embed comments, this is a good place to do it!
-    </section>
-    --}}
+    <script src="https://utteranc.es/client.js" repo="daemonsy/morethancode" issue-term="pathname" theme="github-light"
+        crossorigin="anonymous" async> </script>
 
 </section>
 {{/post}}
